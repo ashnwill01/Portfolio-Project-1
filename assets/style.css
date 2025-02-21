@@ -94,7 +94,7 @@ header {
 .projects-description {
     flex: 1;
     padding: 20px;
-    background: var(--cream);
+    background: var(--aubergine);
     border-radius: 10px;
     align-self: flex-start;
 }
@@ -104,13 +104,14 @@ header {
 }
 
 .description-block h3 {
-    color: var(--midnight-green);
+    color: var(--cream);
     margin-bottom: 10px;
+    font-style: italic;
 }
 
 .description-block p {
     line-height: 1.6;
-    color: var(--dark-brown);
+    color: var(--grey);
 }
 
 .flex-container {

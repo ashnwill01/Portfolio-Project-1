@@ -18,7 +18,7 @@
       <h1>Ashley Williams Portfolio</h1>
       <nav class="nav-bar">
         <ul>
-          <li><a class="nav-link" href="#abot">Bio</a></li>
+          <li><a class="nav-link" href="#about">Bio</a></li>
           <li><a class="nav-link" href="#projects">Projects</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -26,7 +26,7 @@
     </header>
 
     <main>
-      <section id="abot" class="portfolio-section">
+      <section id="about" class="portfolio-section">
         <h2>About Me</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget
@@ -43,40 +43,52 @@
 
       <section id="projects" class="portfolio-section">
         <h2>My Projects</h2>
-
-        <div class="project-container" id="my-first-project">
-          <h3>First Webpage</h3>
-          <a
-            class="project"
-            href="https://ashnwill01.github.io/Landing-Page-Project/"
-          >
-            <img
-              src="./assets/images/first_website.png"
-              alt="my-first-webpage img"
-          /></a>
-        </div>
-
-        <div class="project-container" id="css-cheatsheet">
-          <h3>CSS Cheatsheet</h3>
-          <a
-            class="project"
-            href="https://ashnwill01.github.io/css_cheatsheet_project/"
-          >
-            <img
-              src="./assets/images/css_cheatsheet.png"
-              alt="css-snippets img"
-            />
-          </a>
-        </div>
-
-        <div class="project-container" id="dalla-sicilia">
-          <h3>Dalla Sicilia</h3>
-          <a
-            class="project"
-            href="https://custom-pixel-design.github.io/dalla-sicilia/"
-          >
-            <img src="./assets/images/dalla_sicilia.png" alt="dalla-sicilia"/>
-          </a>
+        <div class="page-section">
+          <div class="projects-content">
+            <div class="projects-description">
+              <div class="description-block">
+                <h3>CSS Cheatsheet</h3>
+                <p>A comprehensive reference guide for CSS properties and values. Built to help developers quickly look up common CSS syntax and usage examples.</p>
+              </div>
+              <div class="description-block">
+                <h3>First Webpage</h3>
+                <p>My initial web development project showcasing fundamental HTML and CSS concepts. Features responsive design and modern layout techniques.</p>
+              </div>
+              <div class="description-block">
+                <h3>Dalla Sicilia</h3>
+                <p>A restaurant website design that brings authentic Sicilian cuisine to life. Implements advanced CSS animations and JavaScript functionality.</p>
+              </div>
+            </div>
+            <div class="flex-container">
+              <div class="project-container featured" id="css-cheatsheet">
+                <a class="project" href="https://ashnwill01.github.io/css_cheatsheet_project/">
+                  <img src="./assets/images/css_cheatsheet.png" alt="Screenshot of CSS cheatsheet project">
+                  <div class="project-overlay">
+                    <h3>CSS Cheatsheet</h3>
+                    <span>HTML/CSS</span>
+                  </div>
+                </a>
+              </div>
+              <div class="project-container" id="my-first-project">
+                <a class="project" href="https://ashnwill01.github.io/Landing-Page-Project/">
+                  <img src="./assets/images/first_website.png" alt="Screenshot of my first webpage project">
+                  <div class="project-overlay">
+                    <h3>First Webpage</h3>
+                    <span>HTML/CSS</span>
+                  </div>
+                </a>
+              </div>
+              <div class="project-container" id="dalla-sicilia">
+                <a class="project" href="https://custom-pixel-design.github.io/dalla-sicilia/">
+                  <img src="./assets/images/dalla_sicilia.png" alt="Screenshot of Dalla Sicilia project">
+                  <div class="project-overlay">
+                    <h3>Dalla Sicilia</h3>
+                    <span>HTML/CSS/JS</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
